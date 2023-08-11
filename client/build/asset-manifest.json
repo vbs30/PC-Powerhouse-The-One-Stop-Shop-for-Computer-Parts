@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f5bd437.css",
+    "main.js": "/static/js/main.d193e286.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/forgetpage.jpg": "/static/media/forgetpage.c613c0856711420b74d5.jpg",
+    "static/media/loginpage.png": "/static/media/loginpage.6b6d84b7a6d739aa2e91.png",
+    "index.html": "/index.html",
+    "main.6f5bd437.css.map": "/static/css/main.6f5bd437.css.map",
+    "main.d193e286.js.map": "/static/js/main.d193e286.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f5bd437.css",
+    "static/js/main.d193e286.js"
+  ]
+}
