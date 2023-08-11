@@ -9,4 +9,10 @@ const connectDB = async () => {
     }
 }
 
+connectDB().then(() => {
+    app.listen(PORT, () => {
+        console.log("listening for requests");
+    })
+})
+
 export default connectDB
