@@ -12,13 +12,6 @@ import { fileURLToPath } from 'url'
 //config env
 dotenv.config()
 
-//database config
-connectDB().then(() => {
-    app.listen(PORT, () => {
-        console.log("listening for requests");
-    })
-})
-
 //dirname issue resolving
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -43,6 +36,8 @@ app.use('*', function (req, res) {
 
 const PORT = process.env.PORT || 8080;
 
-app.listen(PORT, () => {
-    console.log(`Server running on port: ${PORT}`)
+connectDB().then(() => {
+    app.listen(PORT, () => {
+        console.log("listening for requests");
+    })
 })
