@@ -13,7 +13,11 @@ import { fileURLToPath } from 'url'
 dotenv.config()
 
 //database config
-connectDB()
+connectDB().then(() => {
+    app.listen(PORT, () => {
+        console.log("listening for requests");
+    })
+})
 
 //dirname issue resolving
 const __filename = fileURLToPath(import.meta.url);
